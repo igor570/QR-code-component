@@ -30,10 +30,10 @@
 /* Need to fix the text and then project is complete */
 htexttcontainer {
     z-index: 2;
+
 }
 .headingtext {
     position: relative;
-    outline: 1px red solid;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
@@ -47,9 +47,15 @@ htexttcontainer {
 
 .ptext{
     position: relative;
-    outline: 1px red solid;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
     text-align: center;
+}
+
+#bottom {
+    padding: 10px;
+    position: absolute;
+    bottom: 45px;
+    left: 0;
 }
